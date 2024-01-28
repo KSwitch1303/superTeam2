@@ -1,14 +1,17 @@
 import { AppLayout } from './app-layout';
-import { AppRoutes } from './app-routes';
+// import Home from './home';
+import { PaymentPage } from './solana/payment';
 import { ClusterProvider } from './cluster/cluster-data-access';
 import { SolanaProvider } from './solana/solana-provider';
+// import Shop from './shop';
 
 export function App() {
   return (
     <ClusterProvider>
       <SolanaProvider>
         <AppLayout>
-          <AppRoutes />
+          <PaymentPage />
+          {/* <Shop /> */}
         </AppLayout>
       </SolanaProvider>
     </ClusterProvider>

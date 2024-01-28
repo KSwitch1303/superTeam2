@@ -6,7 +6,25 @@ body,
   margin: 0;
 }
 :root {
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  background-image: url('./assets/8350970.png');
+}
+.qr {
+  /* border: 5px solid; */
+  background-color: aqua;
+  margin: auto;
+  /* width: 50%; */
+  padding: 10px;
+}
+.title {
+  color: rgb(179, 82, 174);
+}
+.shopItem {
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  display: flex;
+  /* padding: 50px;
+  margin: 20px; */
 }
